@@ -1,17 +1,17 @@
 # Microsoft Certifications 2026 - Frontend
 
-Este proyecto es una página web frontend que muestra las últimas certificaciones de Microsoft para 2026, incluyendo certificaciones de Azure, GitHub, y Microsoft 365.
+This project is a frontend web page that displays the latest Microsoft certifications for 2026, including Azure, GitHub, and Microsoft 365 certifications.
 
-## Características
+## Features
 
-- ✨ **Diseño Moderno y Responsive**: Adaptado para dispositivos móviles, tablets y escritorio
-- 🌓 **Modo Oscuro/Claro**: Alternador de temas con persistencia en localStorage
-- 📱 **Totalmente Responsive**: Diseñado con CSS Grid y Flexbox
-- 🎨 **Animaciones Suaves**: Transiciones y efectos de hover
-- ♿ **Accesible**: Etiquetas ARIA y soporte para lectores de pantalla
-- 📊 **Información Actualizada**: Datos obtenidos usando microsoft_docs_search
+- ✨ **Modern and Responsive Design**: Adapted for mobile devices, tablets, and desktop
+- 🌓 **Dark/Light Mode**: Theme toggle with localStorage persistence
+- 📱 **Fully Responsive**: Designed with CSS Grid and Flexbox
+- 🎨 **Smooth Animations**: Transitions and hover effects
+- ♿ **Accessible**: ARIA labels and screen reader support
+- 📊 **Updated Information**: Data obtained using microsoft_docs_search
 
-## Certificaciones Incluidas
+## Included Certifications
 
 ### GitHub Certifications
 - GitHub Foundations (Beginner)
@@ -23,63 +23,63 @@ Este proyecto es una página web frontend que muestra las últimas certificacion
 ### Azure Certifications
 - Azure Administrator Associate (Intermediate)
 - Azure Solutions Architect Expert (Expert)
-- Cloud and AI Security Engineer Associate SC-500 (NEW - Beta Mayo 2026)
+- Cloud and AI Security Engineer Associate SC-500 (NEW - Beta May 2026)
 - Security, Compliance, and Identity Fundamentals (Beginner)
 
 ### Microsoft 365 Certifications
 - Collaboration Communications Systems Engineer Associate (NEW)
 - Copilot and Agent Administration Fundamentals (NEW)
 
-## Uso
+## Usage
 
-Simplemente abre el archivo `index.html` en tu navegador web preferido.
+Simply open the `index.html` file in your preferred web browser.
 
 ```bash
-# Si tienes Python instalado, puedes usar un servidor local:
+# If you have Python installed, you can use a local server:
 python -m http.server 8000
 
-# O con Node.js:
+# Or with Node.js:
 npx serve
 ```
 
-Luego abre tu navegador en `http://localhost:8000`
+Then open your browser at `http://localhost:8000`
 
-## Estructura del Proyecto
+## Project Structure
 
 ```
 .
-├── index.html      # Página principal con el contenido
-├── styles.css      # Estilos CSS con soporte para temas
-├── script.js       # JavaScript para funcionalidad interactiva
-└── README.md       # Este archivo
+├── index.html      # Main page with content
+├── styles.css      # CSS styles with theme support
+├── script.js       # JavaScript for interactive functionality
+└── README.md       # This file
 ```
 
-## Tecnologías Utilizadas
+## Technologies Used
 
 - HTML5
-- CSS3 (Variables CSS, Grid, Flexbox, Media Queries)
+- CSS3 (CSS Variables, Grid, Flexbox, Media Queries)
 - JavaScript ES6+ (Vanilla JS)
 - LocalStorage API
 - Intersection Observer API
 
-## Características de Diseño
+## Design Features
 
-- **Color Palette**: Basada en colores oficiales de Microsoft
-- **Typography**: Segoe UI (fuente oficial de Microsoft)
+- **Color Palette**: Based on official Microsoft colors
+- **Typography**: Segoe UI (Microsoft's official font)
 - **Responsive Breakpoints**: 480px, 768px, 1200px
 - **Animations**: Fade-in, hover effects, smooth scrolling
 - **Accessibility**: ARIA labels, keyboard navigation, screen reader support
 
-## Información de las Certificaciones
+## Certifications Information
 
-Todos los datos de certificaciones fueron obtenidos de la documentación oficial de Microsoft Learn usando la herramienta `microsoft_docs_search`, asegurando información precisa y actualizada para el año 2026.
+All certification data was obtained from official Microsoft Learn documentation using the `microsoft_docs_search` tool, ensuring accurate and up-to-date information for 2026.
 
-## Fuentes
+## Sources
 
 - [Microsoft Learn - Certifications](https://learn.microsoft.com/credentials/certifications/)
 - [Microsoft Partner Center Announcements 2026](https://learn.microsoft.com/partner-center/announcements/)
 - [GitHub Certifications](https://learn.microsoft.com/credentials/browse/?products=github)
 
-## Licencia
+## License
 
-Este proyecto es una prueba de concepto (POC) creado con fines educativos.
+This project is a proof of concept (POC) created for educational purposes.
